@@ -1,0 +1,164 @@
+body{
+    background-color: #51d191;
+}
+
+.options{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.box{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+    text-transform: uppercase;
+    font-family: 'nunito', sans-serif;
+    color: rgb(36, 35, 35);
+    font-weight: 100;
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    padding: 30px;
+    height: 180px;
+    width: 280px;
+}
+
+.box:active{
+    transform: scale(0.98);
+    background-color: #f0f0f0;;
+}
+
+footer{
+    font-family: 'nunito', sans-serif;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.images{
+    width: 200px;
+    height: auto;
+}
+
+.menu ul{
+    gap: 70px;
+    font-family: 'nunito', sans-serif;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    margin-top: auto;
+    width: 75%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px;
+    margin-bottom: 30px;
+}
+
+.texto h1{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+
+.texto p{
+    margin: 10px;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.voltar{
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    width: 200px;
+    background-color: #c8ffd6;
+}
+
+.voltar:active{
+    transform: scale(0.98);
+    background-color: rgb(255, 255, 255);
+}
+
+.container_informacoes{
+    font-family: 'nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+    gap: 15px;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 12px;
+    background-color: #c8ffd6;
+}
+
+.opcoes:active{
+    transform: scale(0.98);
+    background-color: #f0f0f0;;
+}
+
+#avisos, #professores{
+    margin-bottom: 10px;
+}
+
+.mapa{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #c8ffd6;
+    width: 500px;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.mapa button{
+    font-family: 'nunito', sans-serif;
+    border: none;
+    background-color: #ffffff;
+    margin: 0;
+    width: 30%;
+    height: 10%;
+}
+
+#wifi, #lousa, #avisos_icons, #aluno, #onde, #telefone{
+    width: 30px;
+    height: auto;
+}
