@@ -1,7 +1,7 @@
 document.getElementById('students').addEventListener('click', function() {
-    window.location.href = '../pages/students.html';
+    window.location.href = '/pages/students.html';
 });
 
 document.getElementById('visitors').addEventListener('click', function() {
-    window.location.href = '../pages/visitors.html';
+    window.location.href = '/pages/visitors.html';
 });
